@@ -1,0 +1,27 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "editor.tabSize": 2,
+  "eslint.format.enable": true,
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "always",
+  "prettier.useTabs": true,
+  "prettier.endOfLine": "auto",
+  "editor.formatOnSave": true,
+  "prettier.enable": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "material-icon-theme.activeIconPack": "nest",
+  "explorer.compactFolders": false,
+  "prettier.trailingComma": "all",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.module.ts": "${capture}.module.ts, ${capture}.controller.ts, ${capture}.controller.spec.ts, ${capture}.service.ts"
+  },
+}
