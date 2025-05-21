@@ -16,6 +16,26 @@
     "noImplicitAny": true,
     "strictBindCallApply": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@config/*": [
+        "src/config/*"
+      ],
+      "@database/*": [
+        "src/config/database/*"
+      ],
+      "@middleware/*": [
+        "src/core/middleware/*"
+      ],
+      "@utils/*": [
+        "src/core/utils/*"
+      ],
+      "@routes/*": [
+        "src/routes/*"
+      ]
+    }
   }
 }

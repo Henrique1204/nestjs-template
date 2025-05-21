@@ -1,5 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 
+import { ErrorMiddleware } from '@middleware/error.middleware';
+
 import { AppModule } from './app.module';
 
 async function bootstrap() {
@@ -9,6 +11,8 @@ async function bootstrap() {
 
   app.setGlobalPrefix(apiPrefix);
   app.enableCors();
+
+  app.useGlobalFilters(new ErrorMiddleware());
 
   await app.listen(process.env.PORT ?? 3000);
 }

@@ -8,6 +8,8 @@ const messages = {
   406: 'Dados inválidos.',
   409: 'Conflito ao realizar a ação.',
   422: 'Informações já existem no banco de dados.',
+  426: 'Essa ação não pode ser concluída por esse method.',
+  500: 'Erro dentro do servidor.',
   502: 'Erro ao salvar ou buscar dados.',
 };
 
